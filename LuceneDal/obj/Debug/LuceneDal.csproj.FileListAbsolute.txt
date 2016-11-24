@@ -18,12 +18,3 @@ F:\WorkBase\LuceneAopTest\LuceneDal\bin\Debug\EntityFramework.SqlServer.xml
 F:\WorkBase\LuceneAopTest\LuceneDal\obj\Debug\LuceneDal.csprojResolveAssemblyReference.cache
 F:\WorkBase\LuceneAopTest\LuceneDal\obj\Debug\LuceneDal.dll
 F:\WorkBase\LuceneAopTest\LuceneDal\obj\Debug\LuceneDal.pdb
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\LuceneDal.dll.config
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\LuceneDal.dll
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\LuceneDal.pdb
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\EntityFramework.dll
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\EntityFramework.SqlServer.dll
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\EntityFramework.xml
-F:\WorkBase\ExLuceneAndAop\LuceneDal\bin\Debug\EntityFramework.SqlServer.xml
-F:\WorkBase\ExLuceneAndAop\LuceneDal\obj\Debug\LuceneDal.dll
-F:\WorkBase\ExLuceneAndAop\LuceneDal\obj\Debug\LuceneDal.pdb
