@@ -3,3 +3,8 @@ D:\Users\LuceneAopTest\LuceneModel\bin\Debug\LuceneModel.pdb
 D:\Users\LuceneAopTest\LuceneModel\obj\Debug\LuceneModel.csprojResolveAssemblyReference.cache
 D:\Users\LuceneAopTest\LuceneModel\obj\Debug\LuceneModel.dll
 D:\Users\LuceneAopTest\LuceneModel\obj\Debug\LuceneModel.pdb
+F:\WorkBase\ExLuceneAndAop\LuceneModel\bin\Debug\LuceneModel.dll
+F:\WorkBase\ExLuceneAndAop\LuceneModel\bin\Debug\LuceneModel.pdb
+F:\WorkBase\ExLuceneAndAop\LuceneModel\obj\Debug\LuceneModel.csprojResolveAssemblyReference.cache
+F:\WorkBase\ExLuceneAndAop\LuceneModel\obj\Debug\LuceneModel.dll
+F:\WorkBase\ExLuceneAndAop\LuceneModel\obj\Debug\LuceneModel.pdb
