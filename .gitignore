@@ -167,6 +167,7 @@ ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
 *~
+*.txt
 *.dbmdl
 *.dbproj.schemaview
 *.pfx
