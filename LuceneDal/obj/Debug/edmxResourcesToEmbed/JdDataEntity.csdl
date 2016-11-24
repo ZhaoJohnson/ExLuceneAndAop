@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JDWarmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ParentCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryLevel" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="Int32" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_001">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_002">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_003">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_004">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_005">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_006">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_007">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_008">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_009">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_010">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_011">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_012">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_013">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_014">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_015">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_016">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_017">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_018">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_019">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_020">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_021">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_022">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_023">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_024">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_025">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_026">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_027">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_028">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_029">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_030">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="JDWarmEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="JD_Commodity_001" EntityType="Self.JD_Commodity_001" />
+    <EntitySet Name="JD_Commodity_002" EntityType="Self.JD_Commodity_002" />
+    <EntitySet Name="JD_Commodity_003" EntityType="Self.JD_Commodity_003" />
+    <EntitySet Name="JD_Commodity_004" EntityType="Self.JD_Commodity_004" />
+    <EntitySet Name="JD_Commodity_005" EntityType="Self.JD_Commodity_005" />
+    <EntitySet Name="JD_Commodity_006" EntityType="Self.JD_Commodity_006" />
+    <EntitySet Name="JD_Commodity_007" EntityType="Self.JD_Commodity_007" />
+    <EntitySet Name="JD_Commodity_008" EntityType="Self.JD_Commodity_008" />
+    <EntitySet Name="JD_Commodity_009" EntityType="Self.JD_Commodity_009" />
+    <EntitySet Name="JD_Commodity_010" EntityType="Self.JD_Commodity_010" />
+    <EntitySet Name="JD_Commodity_011" EntityType="Self.JD_Commodity_011" />
+    <EntitySet Name="JD_Commodity_012" EntityType="Self.JD_Commodity_012" />
+    <EntitySet Name="JD_Commodity_013" EntityType="Self.JD_Commodity_013" />
+    <EntitySet Name="JD_Commodity_014" EntityType="Self.JD_Commodity_014" />
+    <EntitySet Name="JD_Commodity_015" EntityType="Self.JD_Commodity_015" />
+    <EntitySet Name="JD_Commodity_016" EntityType="Self.JD_Commodity_016" />
+    <EntitySet Name="JD_Commodity_017" EntityType="Self.JD_Commodity_017" />
+    <EntitySet Name="JD_Commodity_018" EntityType="Self.JD_Commodity_018" />
+    <EntitySet Name="JD_Commodity_019" EntityType="Self.JD_Commodity_019" />
+    <EntitySet Name="JD_Commodity_020" EntityType="Self.JD_Commodity_020" />
+    <EntitySet Name="JD_Commodity_021" EntityType="Self.JD_Commodity_021" />
+    <EntitySet Name="JD_Commodity_022" EntityType="Self.JD_Commodity_022" />
+    <EntitySet Name="JD_Commodity_023" EntityType="Self.JD_Commodity_023" />
+    <EntitySet Name="JD_Commodity_024" EntityType="Self.JD_Commodity_024" />
+    <EntitySet Name="JD_Commodity_025" EntityType="Self.JD_Commodity_025" />
+    <EntitySet Name="JD_Commodity_026" EntityType="Self.JD_Commodity_026" />
+    <EntitySet Name="JD_Commodity_027" EntityType="Self.JD_Commodity_027" />
+    <EntitySet Name="JD_Commodity_028" EntityType="Self.JD_Commodity_028" />
+    <EntitySet Name="JD_Commodity_029" EntityType="Self.JD_Commodity_029" />
+    <EntitySet Name="JD_Commodity_030" EntityType="Self.JD_Commodity_030" />
+  </EntityContainer>
+</Schema>
